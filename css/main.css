@@ -78,6 +78,14 @@ body {
   cursor: pointer;
 }
 
+.show-menu {
+  display: flex;
+}
+
+.hide-menu {
+  display: none;
+}
+
 /* MAIN */
 .page__main {
   display: flex;
@@ -102,8 +110,6 @@ body {
   bottom: 15px;
   z-index: 0;
   height: 30px;
-  width: 240px;
-  text-align: center;
   padding: 7px;
 }
 .page__footer-copy {
