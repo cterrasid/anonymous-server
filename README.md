@@ -10,7 +10,7 @@ _Simple responsive page builded with HTML 5, CSS 3 and Vanilla JavaScript._
 
 ## License 📄
 
-This project is under the MIT License - see the file [LICENSE.md] (LICENSE.md) for details
+This project is under the MIT License - see the file [LICENSE.md](LICENSE.md) for details
 
 ## Author ✒️
 
