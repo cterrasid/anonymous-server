@@ -10,6 +10,7 @@
   font-family: "Roboto Slab", serif;
   border: none;
   color: #ffffff;
+  overflow: hidden;
 }
 
 body {
@@ -43,6 +44,11 @@ body {
   cursor: pointer;
 }
 
+.nav-trigger:hover {
+  background-color: #242222;
+  transition: background-color ease 1s;
+}
+
 /* MENU */
 .nav {
   background-color: #402929e5;
@@ -55,12 +61,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #b8b8b7;
+  animation: appear 2s 1;
 }
 .nav__items {
-  font-size: 30px;
   line-height: 45px;
-  width: 200px;
+  width: 220px;
+}
+
+.nav__item {
+  font-size: 30px;
+  color: #b8b8b7;
+}
+
+.nav__item:hover {
+  color: #ffffff;
+  font-size: 32px;
+  transition: color ease 1s, font-size ease 1s;
 }
 
 .nav-close {
@@ -73,6 +89,11 @@ body {
   height: 45px;
   width: 45px;
   cursor: pointer;
+}
+
+.nav-close:hover {
+  background-color: #242222;
+  transition: background-color ease 1s;
 }
 
 .show-menu {
@@ -142,4 +163,17 @@ body {
   .page__footer {
     width: 660px;
   }
+}
+
+/*KEYFRAMES*/
+@keyframes appear {
+  0%{
+    transform:translateX(100%);
+  }
+	10%{
+    transform:translateX(0%);
+	}
+	100%{
+    transform:translateX(0%);
+	}
 }
