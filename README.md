@@ -1,2 +1,17 @@
-# clarke-fc-anonymous-server
-Base para la prueba técnica 4 de la formación continua en Adalab
+# Anonymous Server
+
+_Simple responsive page builded with HTML 5, CSS 3 and Vanilla JavaScript._
+
+## Starting 🚀
+
+1. Clone the repo and run: 'git clone https://github.com/Adalab/f-online-anonymous-server-cterrasid'.
+
+2. You can also make Fork and you will copy this repository directly into your GitHub profile.
+
+## License 📄
+
+This project is under the MIT License - see the file [LICENSE.md] (LICENSE.md) for details
+
+## Author ✒️
+
+- Clarette Terrasi Díaz - [cterrasid](https://www.linkedin.com/in/cterrasid/)
