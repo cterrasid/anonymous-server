@@ -4,7 +4,7 @@ _Simple responsive page builded with HTML 5, CSS 3 and Vanilla JavaScript._
 
 ## Starting 🚀
 
-1. Clone the repo and run: 'git clone https://github.com/Adalab/f-online-anonymous-server-cterrasid'.
+1. Clone the repo and run: `$ git clone https://github.com/Adalab/f-online-anonymous-server-cterrasid`.
 
 2. You can also make Fork and you will copy this repository directly into your GitHub profile.
 
